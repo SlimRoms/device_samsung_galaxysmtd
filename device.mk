@@ -35,6 +35,9 @@
 # but not to the original vendor tree. Be sure to update both.
 
 # These are the hardware-specific configuration files
+DEVICE_PACKAGE_OVERLAYS += \
+	device/samsung/galaxysmtd/overlay
+
 PRODUCT_COPY_FILES := \
 	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf
 
@@ -42,13 +45,17 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxysmtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
 
+# We have FFC
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
+
 # kernel modules
 PRODUCT_COPY_FILES += $(foreach module,\
-	$(wildcard device/samsung/galaxysmtd/*.ko),\
+	$(wildcard device/samsung/galaxysmtd/modules/*.ko),\
 	$(module):system/lib/modules/$(notdir $(module)))
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/samsung/galaxysmtd/kernel
+    LOCAL_KERNEL := device/samsung/galaxysmtd/zImage
 else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif

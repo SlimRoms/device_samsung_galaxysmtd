@@ -21,7 +21,7 @@
 BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
 #Prebuilt Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/galaxysmtd/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/galaxysmtd/zImage
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
