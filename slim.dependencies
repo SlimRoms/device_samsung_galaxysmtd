@@ -5,11 +5,6 @@
         "branch": "jb"
       },
       {
-        "repository": "SlimRoms/device_samsung_galaxysmtd",
-        "target_path": "device/samsung/galaxysmtd",
-        "branch": "jellybean"
-      },
-      {
         "repository": "TheMuppets/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "branch": "jellybean"
