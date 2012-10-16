@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 	device/samsung/galaxysmtd/prebuilt/kernel/system/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
 	device/samsung/galaxysmtd/prebuilt/kernel/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
 	device/samsung/galaxysmtd/prebuilt/kernel/system/lib/modules/mls_utf8.ko:system/lib/modules/mls_utf8.ko \
-	device/samsung/galaxysmtd/prebuilt/kernel/system/lib/modules/nls_utf8.ko:system/lib/modules/nls_utf8.ko
+	device/samsung/galaxysmtd/prebuilt/kernel/system/lib/modules/nls_utf8.ko:system/lib/modules/logger.ko
 
 PRODUCT_COPY_FILES += \
 	vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
