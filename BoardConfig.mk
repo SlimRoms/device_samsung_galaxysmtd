@@ -24,7 +24,7 @@ BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 TARGET_PREBUILT_KERNEL := device/samsung/galaxysmtd/zImage
 
 #Inline Kernel [Disabled]
-TARGET_KERNEL_CONFIG := semaphore_galaxys_defconfig
+#TARGET_KERNEL_CONFIG := semaphore_galaxys_defconfig
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
