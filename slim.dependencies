@@ -8,5 +8,15 @@
         "repository": "TheMuppets/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "branch": "jellybean"
+      },
+      {
+        "repository": "stratosk/samsung-kernel-aries",
+        "target_path": "kernel/samsung/samsung-kernel-aries",
+        "branch": "jellybean"
+      },
+      {
+        "repository": "stratosk/ics-ramdisk",
+        "target_path": "kernel/samsung/ics-ramdisk",
+        "branch": "master"
       }
 ]
