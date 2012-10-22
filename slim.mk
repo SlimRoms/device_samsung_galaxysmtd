@@ -17,8 +17,8 @@ $(call inherit-product, vendor/slim/config/common_sgs.mk)
 #PRODUCT_COPY_FILES += \
 #	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:system/slimkernel/boot.img \
 #	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:kernel \
-	device/samsung/aries-common/recovery.fstab:ramdisk.img \
-	device/samsung/aries-common/recovery.fstab:recovery/root/etc/recovery.fstab
+#	device/samsung/aries-common/recovery.fstab:ramdisk.img \
+#	device/samsung/aries-common/recovery.fstab:recovery/root/etc/recovery.fstab
 
 PRODUCT_COPY_FILES += \
 	vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
