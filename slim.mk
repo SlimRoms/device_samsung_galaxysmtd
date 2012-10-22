@@ -14,9 +14,9 @@ $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
 #copy kernel and modules
-PRODUCT_COPY_FILES += \
-	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:system/slimkernel/boot.img \
-	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:kernel \
+#PRODUCT_COPY_FILES += \
+#	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:system/slimkernel/boot.img \
+#	device/samsung/galaxysmtd/prebuilt/kernel/boot.img:kernel \
 	device/samsung/aries-common/recovery.fstab:ramdisk.img \
 	device/samsung/aries-common/recovery.fstab:recovery/root/etc/recovery.fstab
 
