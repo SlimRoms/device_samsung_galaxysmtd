@@ -22,6 +22,6 @@
       {
         "repository": "stratosk/ics-ramdisk",
         "target_path": "kernel/samsung/ics-ramdisk",
-        "branch": "mr1-staging"
+        "branch": "jb-4.2.1"
       }
 ]
