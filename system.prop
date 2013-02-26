@@ -6,3 +6,17 @@ rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
 ro.sf.lcd_density=182
 
+#
+# Additional Tweaks from mnazim
+#
+
+dalvik.vm.dexopt-flags=m=y,o=v,u=y
+debug.egl.hw=1
+debug.performance.tuning=1
+debug.sf.hw=1
+persist.sys.shutdown.mode=hibernate
+persist.sys.ui.hw=1
+ro.config.nocheckin=1
+video.accelerate.hw=1
+windowsmgr.max_events_per_sec=300
+
