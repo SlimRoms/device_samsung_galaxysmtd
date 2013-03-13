@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES := \
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/galaxysmtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
+    device/samsung/galaxysmtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
+    device/samsung/galaxysmtd/cypress-touchkey.kl:system/usr/keylayout/cypress-touchkey.kl
 
 # We have FFC
 PRODUCT_COPY_FILES += \
