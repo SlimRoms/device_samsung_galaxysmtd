@@ -2,17 +2,17 @@
       {
         "repository": "SlimRoms/device_samsung_aries-common",
         "target_path": "device/samsung/aries-common",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
       },
       {
         "repository": "SlimRoms/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
       },
       {
         "repository": "SlimRoms/hardware_samsung",
         "target_path": "hardware/samsung",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
       },
       {
         "repository": "stratosk/samsung-kernel-aries",
