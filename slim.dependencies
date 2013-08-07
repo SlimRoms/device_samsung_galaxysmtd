@@ -15,9 +15,9 @@
         "branch": "jb4.3"
       },
       {
-        "repository": "stratosk/samsung-kernel-aries",
+        "repository": "PRJosh/android_kernel_samsung_aries",
         "target_path": "kernel/samsung/samsung-kernel-aries",
-        "branch": "jb-4.2.1"
+        "branch": "jb4.3"
       },
       {
         "repository": "stratosk/ics-ramdisk",
