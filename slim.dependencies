@@ -16,7 +16,7 @@
       },
       {
         "repository": "PRJosh/android_kernel_samsung_aries",
-        "target_path": "kernel/samsung/samsung-kernel-aries",
+        "target_path": "kernel/samsung/aries",
         "branch": "jb4.3"
       },
       {
