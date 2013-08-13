@@ -13,9 +13,6 @@ $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
-PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
