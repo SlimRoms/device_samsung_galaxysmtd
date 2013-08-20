@@ -14,9 +14,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
-# Inherit device settings
-$(call inherit-product, vendor/slim/config/common_sgs.mk)
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
