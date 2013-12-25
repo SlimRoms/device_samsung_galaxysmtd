@@ -22,7 +22,7 @@ BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
 #Inline Kernel Config
 TARGET_KERNEL_CONFIG := semaphore_galaxys_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
