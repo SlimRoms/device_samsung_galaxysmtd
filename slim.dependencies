@@ -15,9 +15,9 @@
         "branch": "kk4.4"
       },
       {
-        "repository": "PRJosh/samsung-kernel-aries",
+        "repository": "SlimRoms/kernel_samsung_aries",
         "target_path": "kernel/samsung/samsung-kernel-aries",
-        "branch": "kk-4.4"
+        "branch": "kk4.4"
       },
       {
         "repository": "PRJosh/ics-ramdisk",
